@@ -8,12 +8,12 @@ class GalvanizeSet {
   }
 
   insert(item){
-if(this.set.includes(item)){
-return
-}else {
+  if(this.set.includes(item)){
+  return
+  }else {
     this.set.push(item)
     return this.set
-}
+  }
   }
 
 contains(item) {
