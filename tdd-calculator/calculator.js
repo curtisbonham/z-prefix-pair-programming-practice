@@ -60,30 +60,5 @@ negPosReversal (number) {
 
 }
 
-// function findDifference(numbers) {
-//   if (!numbers || numbers.length < 2) {
-//     return "Please provide at least two numbers.";
-//   }
-//   let difference = numbers[0];
-//   for (let i = 1; i < numbers.length; i++) {
-//     difference -= numbers[i];
-//   }
-//   return difference;
-// }
-
-// // Example usage:
-// const numbers1 = [10, 2, 3];
-// console.log(findDifference(numbers1)); // Output: 5
-
-// const numbers2 = [15, 4, 2, 1];
-// console.log(findDifference(numbers2)); // Output: 8
-
-// const numbers3 = [5];
-// console.log(findDifference(numbers3)); // Output: Please provide at least two numbers.
-
-
-
-
-
 
 module.exports = Calculator
